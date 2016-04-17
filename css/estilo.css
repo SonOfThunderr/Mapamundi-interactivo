@@ -1,0 +1,54 @@
+body {    
+    background-position: top left;
+    display: block;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    height: 500px;
+    width: auto;
+}
+header {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center; 
+    font-family: fantasy;
+    font-size: 32px;
+    color: aliceblue;
+    text-shadow:  black -3px 3px 8px;
+    background-color: darkblue;
+    height: 200px;
+}
+article {
+    font-family: "Comic Sans MS", sans-serif;
+    align-content: space-around;
+    font-size: 18px;
+    color: aliceblue;
+    background-color: darkblue;
+    background-position: top left;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 700px;
+}
+img {
+    display: block;
+    margin: auto;
+    padding: 0px;
+    align-content: center;
+}
+article h2 {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Comic Sans MS", sans-serif;
+    color: aqua;
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: cyan -1px 1px 3px;
+}
+section {
+    margin: 80px;
+    justify-content: center;
+    display: none;
+    max-height: 200px;
+}

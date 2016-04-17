@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Menu desplegable basado en mapas de imagenes</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="sencillo sistema de menus desplegables sobre una imagen con mapas de imagenes">
+        <meta name="keywords" content="HTML5 menu desplegable CSS3 mapamundi mapa imagenes">
+        <meta name="generator" content="Brackets Emmet Google Chrome Mozilla Firefox">
+        <meta name="author" content="Pedro Pablo Gonzalo García">
+        <script src="js/instrucciones.js" type="text/javascript"></script>
+        <link href="css/estilo.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+       <header>
+           <h1>Mapamundi interactivo</h1>
+           <p>Clique sobre su continente para obtener mas información</p>
+       </header>
+       <article>
+           <img src="img/mapamundi.jpg" alt="Imagen no disponible" usemap="#mapamundi">
+               <map name="mapamundi">
+                    <area onclick="mostrar('australia')" shape="poly" coords="941, 292, 938, 302, 930, 300, 922, 307, 917, 317, 902, 320, 894, 334, 903, 352, 903, 363, 925, 355, 945, 351, 954, 359, 967, 371, 978, 373, 989, 359, 995, 338, 987, 324, 976, 314, 966, 288, 960, 311, 950, 300" href="#australia">
+                    <area onclick="mostrar('sudamerica')" shape="poly" coords="446, 223, 434, 237, 435, 249, 424, 263, 436, 294, 452, 311, 447, 364, 440, 401, 460, 400, 468, 383, 483, 365, 504, 342, 509, 327, 521, 324, 531, 295, 539, 275, 524, 265, 500, 258, 496, 244, 482, 237, 466, 223" href="#sudamerica">
+                    <area onclick="mostrar('norteamerica')" shape="poly" coords="189, 57, 209, 63, 226, 55, 250, 51, 288, 56, 302, 57, 334, 56, 358, 62, 383, 59, 406, 53, 406, 70, 391, 82, 424, 97, 429, 112, 434, 93, 435, 76, 452, 80, 463, 90, 467, 83, 496, 118, 477, 116, 458, 130, 440, 152, 429, 168, 429, 187, 413, 169, 400, 173, 390, 176, 390, 192, 368, 202, 352, 182, 334, 159, 321, 139, 320, 114, 293, 85, 260, 80, 238, 94, 221, 79, 210, 67, 199, 72, 183, 65" href="#norteamerica">
+                    <area onclick="mostrar('africa')" shape="poly" coords="610, 156, 597, 167, 589, 180, 581, 196, 583, 210, 588, 230, 604, 248, 615, 245, 632, 238, 649, 252, 644, 263, 655, 282, 653, 310, 660, 333, 668, 358, 668, 358, 693, 359, 708, 318, 723, 299, 719, 270, 743, 237, 744, 222, 725, 223, 712, 202, 705, 179, 698, 168, 674, 161, 669, 168, 650, 163, 645, 147" href="#africa">
+                    <area onclick="mostrar('europa')" shape="poly" coords="610, 151, 597, 142, 602, 128, 619, 128, 611, 112, 595, 100, 610, 82, 628, 105, 644, 96, 633, 74, 676, 53, 699, 54, 723, 62, 757, 58, 776, 55, 787, 61, 782, 132, 711, 155, 699, 152, 689, 147, 687, 137, 708, 135, 725, 136, 715, 122, 706, 129, 700, 124, 686, 139, 672, 146, 665, 131, 652, 125, 659, 135, 665, 144, 663, 152, 650, 144, 648, 134, 643, 129, 632, 134, 624, 143" href="#europa">
+                    <area onclick="mostrar('asia')" shape="poly" coords="749, 60, 774, 102, 771, 154, 766, 184, 782, 185, 794, 197, 811, 240, 818, 227, 818, 211, 839, 192, 851, 211, 859, 220, 864, 234, 854, 243, 874, 277, 894, 284, 906, 270, 918, 270, 948, 270, 960, 282, 970, 287, 975, 282, 985, 290, 976, 272, 955, 258, 942, 259, 939, 267, 915, 265, 905, 239, 888, 251, 878, 254, 873, 242, 866, 215, 881, 234, 891, 219, 881, 202, 886, 192, 899, 195, 916, 180, 914, 167, 911, 152, 920, 146, 925, 151, 937, 154, 942, 166, 965, 155, 972, 130, 966, 126, 958, 146, 942, 153, 932, 142, 941, 132, 946, 132, 962, 112, 972, 115, 966, 98, 955, 100, 950, 97, 968, 84, 993, 86, 1008, 77, 1016, 77, 998, 96, 1000, 110, 1019, 96, 1019, 86, 1026, 82, 1039, 80, 1058, 77, 1059, 54, 1034, 53, 1012, 56, 1006, 50, 988, 49, 963, 45, 953, 50, 939, 45, 924, 42, 917, 45, 889, 41, 897, 35, 872, 28, 853, 36, 827, 41, 810, 43, 799, 46, 790, 45, 781, 52, 785, 61, 770, 51" href="#asia">
+           </map>
+            <section id="europa">
+                <h2>EUROPA</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia cum perspiciatis quam rerum quibusdam, qui vitae libero vel fuga quis. Amet earum voluptas minima, eum sunt dignissimos dolores qui.Doloribus rem, molestiae quasi. Quidem debitis, assumenda accusamus, sapiente dolorem aliquid rem natus quo, amet nihil earum. Dolorem, nobis odit, eveniet, nostrum id corrupti ratione atque veritatis minima natus tempora!</p>
+            </section>
+            <section id="africa">
+                <h2>AFRICA</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam aliquid exercitationem laudantium at eius provident qui aut? Voluptatem fuga nostrum dolores necessitatibus. Ad consequatur ullam at, velit, quisquam quaerat iste.Reiciendis recusandae quasi, iure saepe illo adipisci laboriosam accusantium quos, voluptatem, itaque voluptas maiores distinctio, soluta aperiam possimus facere odio tempora. Repellat repudiandae odit tenetur cumque unde commodi optio cum.</p>
+            </section>
+            <section id="norteamerica">
+                <h2>NORTEAMERICA</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium excepturi officiis assumenda itaque natus nostrum dolore quibusdam. Est illum, asperiores iste. Ipsam, iure impedit! Adipisci magni assumenda excepturi nobis eaque.Cumque, eligendi voluptatibus cum molestias impedit tempore, corporis rem libero harum quaerat, molestiae consequatur animi quidem iusto illum placeat eius quia nihil, qui optio! Molestias quos quod ut inventore explicabo.</p>
+            </section>
+            <section id="sudamerica">
+                <h2>AMERICA DEL SUR</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam ipsa optio dolorem numquam itaque, saepe, distinctio sequi, eum sapiente unde inventore iure rerum tempora hic delectus iste dolor doloremque, voluptatum.Commodi possimus dolores inventore odit, explicabo dolorum. Vero animi, amet, tempora accusantium repellendus eligendi aliquam adipisci! Sunt doloribus, reprehenderit repellat dolores odit eius, similique magni eligendi eveniet facere sequi corporis.</p>
+            </section>
+            <section id="australia">   
+                <h2>AUSTRALIA</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur nihil animi enim ullam, tempore facilis alias natus laudantium. Laboriosam veritatis voluptas sunt neque repudiandae laborum, voluptates ab totam perspiciatis inventore?Quae neque optio omnis, modi harum molestiae numquam nisi ex quis suscipit reiciendis doloremque qui autem veritatis incidunt rerum consectetur enim eum aliquid tempore doloribus vel! Iusto voluptates cupiditate eveniet.</p>
+            </section>
+            <section id="asia">
+                <h2>ASIA</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ullam accusantium voluptates ipsam nesciunt quaerat ad a corporis eligendi nulla, odit recusandae unde veritatis assumenda asperiores enim commodi omnis quisquam.Incidunt quod optio reiciendis cum velit qui id placeat unde ex labore excepturi, pariatur ad quam. Doloremque suscipit eligendi quidem delectus, inventore reiciendis placeat beatae magnam, itaque, aliquid voluptate recusandae!</p>  
+           </section>         
+        </article>
+    </body>
+</html>
