@@ -9,7 +9,7 @@ This is a small test on some HTML, CSS and Javascript functions to create intera
 ### How do I get set up? ###
 
 * Download all files and folders into one folder
-* All URLs included in the code, so no config is necessary
+* All URLs included in the code are relative ULRs, so no config is necessary
 * Boot the index.html file on your chosen browser
 
 ### Contribution guidelines ###
